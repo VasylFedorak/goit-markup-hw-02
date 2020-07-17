@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -18,29 +18,53 @@
           <span>WEB</span> <span>Studio</span>
         </a>
         <ul class="list">
-          <li><a href="./index.html" aria-label="Студія link">Студія</a></li>
-          <li><a href="" aria-label="Портфоліо link">Портфоліо</a></li>
-          <li><a href="" aria-label="Контакти link">Контакти</a></li>
+          <li>
+            <a href="./index.html" aria-label="Студія link" class="link active"
+              >Студія</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Портфоліо link" class="link active"
+              >Портфоліо</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Контакти link" class="link active"
+              >Контакти</a
+            >
+          </li>
         </ul>
         <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link contacts active"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link contacts active"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h1>Наше портфоліо</h1>
+        <h1 hidden>Наше портфоліо</h1>
         <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-Сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button type="button" class="portfolio-button">Все</button></li>
+          <li>
+            <button type="button" class="portfolio-button">Веб-Сайти</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Маркетинг</button>
+          </li>
         </ul>
         <ul class="list">
           <li>
@@ -201,16 +225,21 @@
       </section>
     </main>
     <footer class="footer-section">
-      <address>
+      <address class="adress">
         м.Київ, проспект Лесі Українки,26
       </address>
       <address>
-        <a href="mailto:info@example.com">info@example.com</a> <br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <a href="mailto:info@example.com" class="adress-contacts active"
+          >info@example.com</a
+        >
+        <br />
+        <a href="tel:+380991111111" class="adress-contacts active"
+          >+38 099 111 11 11</a
+        >
       </address>
       <section>
         <h2 hidden>Секція соціальні мережі</h2>
-        <p>Приєднуйтеся</p>
+        <p class="feedback">Приєднуйтеся</p>
         <ul class="list">
           <li>
             <a
@@ -252,7 +281,7 @@
       </section>
       <section>
         <h2 hidden>Секція підписки</h2>
-        <p>Підпишіться на розсилку</p>
+        <p class="feedback">Підпишіться на розсилку</p>
       </section>
     </footer>
   </body>
