@@ -109,7 +109,8 @@ body {
 
 /*ховер ефект*/
 
-.active:hover {
+.active:hover,
+.active:focus {
   color: var(--hover-button-blue);
 }
 
@@ -217,7 +218,8 @@ body {
   border-radius: 4px;
 }
 
-.active-portf-btn:hover {
+.active-portf-btn:hover,
+.active-portf-btn:focus {
   color: #ffffff;
   background-color: var(--hover-button-blue);
 }
